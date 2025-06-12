@@ -4,7 +4,7 @@ import Todo from "./Todo";
 
 
 const TodoList = ({todos}) => {
-  return <div>{todo.name}</div> todos.map((todo)=> <Todo todo={todo} key={todo} /> );
+  return  todos.map((todo)=> <Todo todo={todo} key={todo} /> );
   
 };
 
